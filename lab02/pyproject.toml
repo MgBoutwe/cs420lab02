@@ -1,0 +1,8 @@
+[project]
+name = "log-summarizer"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Summarize .log files in a directory."
+
+[project.scripts]
+log-summarizer = "app.__main__:main"
